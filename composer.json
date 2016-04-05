@@ -1,0 +1,31 @@
+{
+    "name": "tmilos/cgi-calc",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Milos Tomic",
+            "email": "tmilos@gmail.com",
+            "homepage": "https://github.com/tmilos/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Cgi\\Calc\\Tests\\": "tests/",
+            "Cgi\\Calc\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "satooshi/php-coveralls": "~0.6"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
